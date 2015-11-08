@@ -1,0 +1,50 @@
+* {
+	font-size: 1rem;
+	font-family: sans, sans-serif;
+	font-weight: 300;
+	box-sizing: border-box;
+
+}
+table {
+	width: 300px;
+	min-height: 400px;
+	border: 1px solid #ccc;
+	margin: 20px;
+	float: left;
+	box-shadow: 3px 3px 3px #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	background: #fcfcfc;
+}
+thead {
+
+}
+thead * {
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align: center;
+}
+tbody tr td:nth-child(2) {
+	text-align: right;
+}
+td input {
+	text-align: right;
+}
+input[type=range] {
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	height: 15px;
+
+}
+.text-low {
+	color: #dd0000;
+}
+.text-mid {
+	color: #0000ff;
+}
+.text-high {
+	color: #00ff00;
+}
